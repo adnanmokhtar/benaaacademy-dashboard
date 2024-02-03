@@ -1,0 +1,24 @@
+{
+    "name": "benaaacademy/dashboard",
+    "description": "The dashboard plugin of benaaacademy/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "benaaacademy",
+        "dashboard"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "benaaacademy/platform": "0.5.*",
+        "consoletvs/charts": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benaaacademy\\Dashboard\\": "src"
+        }
+    }
+}
